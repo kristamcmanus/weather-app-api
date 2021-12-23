@@ -4,7 +4,50 @@
   box-sizing: border-box;
 }
 
-.card {
+/* body, html {
+  height: 100%;
+}
+
+#bg-img {
+  background-image: url("/images/bg-img.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+body {
+  background-image: url(images/bg-img.jpg);
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center; /* optional, center the image */
+}
+
+h1 {
+  padding: 30px 0 15px 0;
+}
+
+#input {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#submit-btn {
+  margin-left: 10px;
+  padding: 1px 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: #060680;
+  color: #fff;
+}
+
+#submit-btn:hover {
+  background-color: #030349;
+}
+
+h1,
+form,
+div {
   display: flex;
   justify-content: center;
   align-items: center;
