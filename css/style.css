@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
 
 /* body, html {
@@ -46,9 +47,24 @@ h1 {
 }
 
 h1,
-form,
-div {
+form {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  display: block;
+  margin: 30px auto;
+}
+
+.card-body {
+  background-color: aliceblue;
+}
+
+#icon {
+  height: 80px;
+  width: 80px;
+  display: block;
+  margin: 0 auto;
 }
