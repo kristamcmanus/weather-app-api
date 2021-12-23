@@ -3,25 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
-}
-
-/* body, html {
-  height: 100%;
-}
-
-#bg-img {
-  background-image: url("/images/bg-img.jpg");
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-body {
-  background-image: url(images/bg-img.jpg);
-  background-size: cover; /* <------ */
-  background-repeat: no-repeat;
-  background-position: center center; /* optional, center the image */
+  color: #333333;
 }
 
 h1 {
@@ -29,8 +11,9 @@ h1 {
 }
 
 #input {
-  border: 1px solid black;
-  border-radius: 3px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #060680;
 }
 
 #submit-btn {
@@ -58,8 +41,12 @@ form {
   margin: 30px auto;
 }
 
+#card-container {
+  border: 1.5px solid #d4d4d4;
+}
+
 .card-body {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
 }
 
 #icon {
@@ -67,4 +54,11 @@ form {
   width: 80px;
   display: block;
   margin: 0 auto;
+}
+
+#temp,
+#name,
+#desc {
+  overflow: hidden;
+  white-space: nowrap;
 }
